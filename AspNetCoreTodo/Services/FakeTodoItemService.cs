@@ -5,7 +5,9 @@ using AspNetCoreTodo.Models;
 
 namespace AspNetCoreTodo.Services
 {
-    public class FakeTodoItemService : ITodoItemService
+    //R.I.P. This test method
+    //if wanting to use it again, make sure to add ': ITodoItemService'
+    public class FakeTodoItemService
     {
         public Task<TodoItem[]> GetIncompleteItemsAsync()
         {
